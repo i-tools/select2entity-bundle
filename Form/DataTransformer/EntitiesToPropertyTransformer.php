@@ -53,9 +53,9 @@ class EntitiesToPropertyTransformer implements DataTransformerInterface
      * Transform initial entities to array
      *
      * @param mixed $entities
-     * @return array
+     * @return mixed
      */
-    public function transform($entities)
+    public function transform(mixed $entities): mixed
     {
         if (empty($entities)) {
             return array();
@@ -84,10 +84,10 @@ class EntitiesToPropertyTransformer implements DataTransformerInterface
     /**
      * Transform array to a collection of entities
      *
-     * @param array $values
-     * @return array
+     * @param mixed $values
+     * @return mixed
      */
-    public function reverseTransform($values)
+    public function reverseTransform(mixed $values): mixed
     {
         if (!is_array($values) || empty($values)) {
             return array();
