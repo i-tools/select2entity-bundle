@@ -59,7 +59,7 @@ Note that this only works with Select2 version 4. If you are using Select2 versi
 ```php
 $bundles = [
     // ...
-    Tetranz\Select2EntityBundle\TetranzSelect2EntityBundle::class => ['all' => true]
+    Tetranz\Select2EntityBundle\IToolsSelect2EntityBundle::class => ['all' => true]
 ];
 ```
 
