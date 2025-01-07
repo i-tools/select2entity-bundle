@@ -1,6 +1,6 @@
 <?php
 
-namespace Tetranz\Select2EntityBundle\Form\DataTransformer;
+namespace ITools\Select2EntityBundle\Form\DataTransformer;
 
 use Doctrine\Persistence\ObjectManager;
 use Symfony\Component\Form\DataTransformerInterface;

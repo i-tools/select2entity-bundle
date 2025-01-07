@@ -1,6 +1,6 @@
 <?php
 
-namespace Tetranz\Select2EntityBundle\Service;
+namespace ITools\Select2EntityBundle\Service;
 
 use Doctrine\Persistence\ManagerRegistry;
 use Doctrine\ORM\EntityRepository;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tetranz\Select2EntityBundle\Form\Type;
+namespace ITools\Select2EntityBundle\Form\Type;
 
 use Tetranz\Select2EntityBundle\Form\DataTransformer\EntitiesToPropertyTransformer;
 use Tetranz\Select2EntityBundle\Form\DataTransformer\EntityToPropertyTransformer;
